@@ -2,6 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:background="#2F4F4F">
@@ -24,8 +25,8 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="6dp"
         android:layout_toEndOf="@+id/ivPoster"
-        android:textSize="30sp"
         android:textColor="#EDEDED"
+        android:textSize="30sp"
         android:textStyle="bold"
         tools:text="Money Plane" />
 
@@ -38,8 +39,8 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="5dp"
         android:layout_marginEnd="5dp"
-        android:textColor="#DCDCDC"
         android:layout_toEndOf="@+id/ivPoster"
+        android:textColor="#DCDCDC"
         tools:text="A professional thief with $40 million in debt and his family's life on the line must commit one final heist - rob a futuristic airborne casino filled with the world's most dangerous criminals." />
 
 </RelativeLayout>
